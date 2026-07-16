@@ -858,3 +858,90 @@ opacity:.92;
 line-height:1.8;
 
 }
+/* ==========================================
+LEADERSHIP
+========================================== */
+
+.leadership{
+
+max-width:1200px;
+
+margin:140px auto;
+
+padding:20px;
+
+}
+
+.philosophy-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:35px;
+
+margin-top:60px;
+
+}
+
+.philosophy-card{
+
+padding:40px;
+
+background:#ffffff;
+
+border-radius:22px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.05);
+
+transition:.35s;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.philosophy-card::before{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+width:6px;
+
+height:100%;
+
+background:#2563EB;
+
+}
+
+.philosophy-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 25px 60px rgba(37,99,235,.12);
+
+}
+
+.philosophy-card h3{
+
+margin-bottom:18px;
+
+font-size:28px;
+
+color:#2563EB;
+
+}
+
+.philosophy-card p{
+
+line-height:1.9;
+
+color:#666;
+
+}
