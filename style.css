@@ -968,3 +968,33 @@ line-height:1.9;
 color:#666;
 
 }
+
+.case-summary{
+
+font-size:20px;
+
+color:#555;
+
+margin-bottom:40px;
+
+line-height:1.8;
+
+}
+
+.case-grid ul{
+
+padding-left:20px;
+
+margin-top:15px;
+
+}
+
+.case-grid li{
+
+margin-bottom:14px;
+
+line-height:1.8;
+
+color:#555;
+
+}
